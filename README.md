@@ -13,6 +13,8 @@
 - **S-Conformer**: Models inter-channel interactions
 - A **lightweight channel attention module** further refines spatial representations by assigning data-driven importance to EEG channels
 
+<img width="1590" alt="image" src="https://github.com/user-attachments/assets/b4c0280f-f262-46c2-8f77-1ad649fde62a" />
+
 
 ## 📦 Features
 
