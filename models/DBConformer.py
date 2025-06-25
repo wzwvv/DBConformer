@@ -4,7 +4,7 @@ coding:utf-8
 @Time:      2025/4/13 17:06
 @File:      DBConformer.py
 @Author:    Ziwei Wang
-@Function:  The original code of "DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding"
+@Function:  Original model code of "DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding"
 =================================================
 '''
 
@@ -78,8 +78,8 @@ class Stem(nn.Module):
         out = torch.split(out, self.out_planes, dim=1)
         out = [m(x) for x, m in zip(out, self.tconv)]
         out = self.interFre(out)
-        if self.data_name != 'MI1-7':
-            out = out[:, :, :-1]
+        if self.data_name != 'MI1-7':  # MI1-7 is the Blankertz2007 dataset in our paper
+            out = out[:, :, :-1]  # Example: 14001 has 1001 time points, we exclude the final point
         out = self.downSampling(out)
         out = self.dp(out)
         return out
@@ -304,27 +304,27 @@ class Gate_FC(nn.Sequential):
 
 
 class DBConformer(nn.Module):
-    def __init__(self, args, emb_size=40, tem_depth=5, chn_depth=5, chn=-1, n_classes=2):
+    def __init__(self, args, emb_size=40, tem_depth=5, chn_depth=5, chn=22, n_classes=2):
         super().__init__()
 
         self.embedding = PatchEmbeddingTemporal(
             data_name=args.data_name,
-            in_planes=args.chn,
-            out_planes=emb_size,
+            in_planes=args.chn,  # number of channels
+            out_planes=emb_size,  # Default 40
             kernel_size=63,
             radix=1,
-            patch_size=args.patch_size,  # TODO
-            time_points=args.time_sample_num,
-            num_classes=args.class_num
+            patch_size=args.patch_size,  # needs to be divisible by the number of time points
+            time_points=args.time_sample_num,  # number of time points
+            num_classes=args.class_num  # number of classes
         )
-        self.channel_embedding = PatchEmbeddingSpatial(spa_dim=args.spa_dim, emb_size=emb_size)
-        self.P = args.time_sample_num // args.patch_size  # Example: 1250 // 125 = 10
-        self.C = args.chn
+        self.channel_embedding = PatchEmbeddingSpatial(spa_dim=args.spa_dim, emb_size=emb_size)  # Default 16
+        self.P = args.time_sample_num // args.patch_size  # Example: 1000 // 125 = 8
+        self.C = args.chn  # number of channels
         self.D = emb_size
-        self.gate_flag = args.gate_flag
-        self.posemb_flag = args.posemb_flag
-        self.branch = args.branch
-        self.chn_atten_flag = args.chn_atten_flag
+        self.gate_flag = args.gate_flag  # Default False, due to the reduced performance
+        self.posemb_flag = args.posemb_flag  # Default True
+        self.branch = args.branch  # Default 'all', options=[all, temporal]
+        self.chn_atten_flag = args.chn_atten_flag  # Default True
 
         if args.posemb_flag:
             self.pos_embedding_temporal = nn.Parameter(torch.randn(1, self.P, self.D))
@@ -361,7 +361,7 @@ class DBConformer(nn.Module):
         if self.branch == 'temporal':
             x_fused = x_temporal.mean(dim=1)
             _, out = self.classifier(x_fused)  # out: (B, n_classes)
-        elif self.branch == 'spatial':
+        elif self.branch == 'spatial':  # Using S-Conformer-only doesn't work
             x_fused = x_spatial.mean(dim=1)
             _, out = self.classifier(x_fused)  # out: (B, n_classes)
         elif self.branch == 'all':

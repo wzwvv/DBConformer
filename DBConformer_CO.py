@@ -153,9 +153,9 @@ if __name__ == '__main__':
         args.backbone = 'DBConformer'  # DBConformer (Ours)
         args.method = args.backbone + '_' + data_name
         # DBConformer parameters
-        args.gate_flag = False  # reduce performance
-        args.posemb_flag = True  # enhance performance
-        args.chn_atten_flag = True  # depend on datasets
+        args.gate_flag = False   # Default False, reduce performance
+        args.posemb_flag = True   # Default True, enhance performance
+        args.chn_atten_flag = True  # Default True
         args.branch = 'all'  # [all, temporal]
         if args.backbone == 'DBConformer':
             args.emb_size = 40
