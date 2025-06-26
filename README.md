@@ -27,8 +27,6 @@
 - 💡 **Interpretable** aligned well with sensorimotor priors in MI
 - 🧮 8× fewer parameters than large CNN-Transformer baselines (e.g., EEG Conformer)
 
----
-
 ## 📂Code Structure
 ```
 DBConformer/
