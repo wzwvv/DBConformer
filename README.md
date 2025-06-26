@@ -4,8 +4,6 @@
 
 [Ziwei Wang](https://scholar.google.com/citations?user=fjlXqvQAAAAJ&hl=en), Hongbin Wang, Tianwang Jia, Xingyi He, [Siyang Li](https://scholar.google.com/citations?user=5GFZxIkAAAAJ&hl=en), and [Dongrui Wu*](https://scholar.google.com/citations?user=UYGzCPEAAAAJ&hl=en)
 
-<img width="1590" alt="image" src="https://github.com/user-attachments/assets/b4c0280f-f262-46c2-8f77-1ad649fde62a" />
-
 </div>
 
 > This repository contains the implementation of our paper: **"DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding"**, serving as a **strong benchmark codebase** for EEG decoding tasks. We implemented and fairly evaluated ten state-of-the-art EEG decoding models, including CNN-based, CNN-Transformer hybrid, and CNN-Mamba hybrid. 
@@ -18,6 +16,8 @@
 - **T-Conformer**: Captures long-range temporal dependencies
 - **S-Conformer**: Models inter-channel interactions
 - A **lightweight channel attention module** further refines spatial representations by assigning data-driven importance to EEG channels
+
+<img width="1590" alt="image" src="https://github.com/user-attachments/assets/b4c0280f-f262-46c2-8f77-1ad649fde62a" />
 
 ## 📦 Features
 
