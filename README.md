@@ -70,6 +70,8 @@ Ten EEG decoding models were reproduced and compared with the proposed DBConform
 - Serial Conformers: CTNet, EEG Conformer 
 - CNN-Mamba: SlimSeiz
 
+<img width="1031" alt="image" src="https://github.com/user-attachments/assets/f0df1a55-b7e6-4865-8ca0-a4eab3067a33" />
+
 ## 📂 Datasets
 DBConformer is evaluated on **MI classification** and **seizure detection** tasks.
 - Motor Imagery:
