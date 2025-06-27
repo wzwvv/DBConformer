@@ -2,7 +2,7 @@
 <h1>DBConformer</h1>
 <h3>Dual-Branch Convolutional Transformer for EEG Decoding</h3>
 
-[Ziwei Wang](https://scholar.google.com/citations?user=fjlXqvQAAAAJ&hl=en), Hongbin Wang, Tianwang Jia, Xingyi He, [Siyang Li](https://scholar.google.com/citations?user=5GFZxIkAAAAJ&hl=en), and [Dongrui Wu*](https://scholar.google.com/citations?user=UYGzCPEAAAAJ&hl=en)
+[Ziwei Wang](https://scholar.google.com/citations?user=fjlXqvQAAAAJ&hl=en), [Hongbin Wang](https://github.com/WangHongbinary), [Tianwang Jia](https://github.com/TianwangJia), Xingyi He, [Siyang Li](https://scholar.google.com/citations?user=5GFZxIkAAAAJ&hl=en), and [Dongrui Wu*](https://scholar.google.com/citations?user=UYGzCPEAAAAJ&hl=en)
 
 </div>
 
