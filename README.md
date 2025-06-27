@@ -1,12 +1,12 @@
 <div align="center">
-<h1>[DBConformer](https://arxiv.org/abs/2506.21140) </h1>
+<h1>DBConformer</h1>
 <h3>Dual-Branch Convolutional Transformer for EEG Decoding</h3>
 
 [Ziwei Wang](https://scholar.google.com/citations?user=fjlXqvQAAAAJ&hl=en), Hongbin Wang, Tianwang Jia, Xingyi He, [Siyang Li](https://scholar.google.com/citations?user=5GFZxIkAAAAJ&hl=en), and [Dongrui Wu*](https://scholar.google.com/citations?user=UYGzCPEAAAAJ&hl=en)
 
 </div>
 
-> This repository contains the implementation of our paper: **"DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding"**, serving as a **strong benchmark codebase** for EEG decoding tasks. We implemented and fairly evaluated ten state-of-the-art EEG decoding models, including CNN-based, CNN-Transformer hybrid, and CNN-Mamba hybrid. 
+> This repository contains the implementation of our paper: **"[DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding](https://arxiv.org/abs/2506.21140)"**, serving as a **strong benchmark codebase** for EEG decoding tasks. We implemented and fairly evaluated ten state-of-the-art EEG decoding models, including CNN-based, CNN-Transformer hybrid, and CNN-Mamba hybrid. 
 
 ---
 
