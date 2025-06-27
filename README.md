@@ -1,5 +1,5 @@
 <div align="center">
-<h1>DBConformer </h1>
+<h1>[DBConformer](https://arxiv.org/abs/2506.21140) </h1>
 <h3>Dual-Branch Convolutional Transformer for EEG Decoding</h3>
 
 [Ziwei Wang](https://scholar.google.com/citations?user=fjlXqvQAAAAJ&hl=en), Hongbin Wang, Tianwang Jia, Xingyi He, [Siyang Li](https://scholar.google.com/citations?user=5GFZxIkAAAAJ&hl=en), and [Dongrui Wu*](https://scholar.google.com/citations?user=UYGzCPEAAAAJ&hl=en)
@@ -97,6 +97,7 @@ If you find this work helpful, please consider citing our paper:
 @article{wang2025dbconformer,
       title={DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding}, 
       author={Ziwei Wang, Hongbin Wang, Tianwang Jia, Xingyi He, Siyang Li, and Dongrui Wu},
+      journal={arXiv preprint arXiv:2506.21140},
       year={2025}
 }
 ```
