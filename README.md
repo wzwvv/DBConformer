@@ -94,11 +94,12 @@ DBConformer supports three standard EEG decoding paradigms:
 - **LOSO (Leave-One-Subject-Out):** Cross-subject generalization evaluation
 
 ## Visualizations
-
+### Effect of Dual-Branch Modeling
 To further evaluate the impact of dual-branch architecture, we conducted feature visualization experiments using t-SNE. Features extracted by T-Conformer (temporal branch only) and DBConformer (dual-branch) were compared on four MI datasets.
 
 <img width="1387" alt="image" src="https://github.com/user-attachments/assets/d6d8a8eb-bdf5-4b69-9dca-459f46d9cb8c" />
 
+### Interpretability of Channel Attention
 To investigate the interpretability of the proposed channel attention module, we visualized the attention scores assigned to each EEG channel across 32 trials (a batch) from four MI datasets. BNCI2014004 were excluded from this analysis, as it only contains C3, Cz, and C4 channels and therefore lacks spatial coverage for attention comparison.
 
 <img width="1384" alt="image" src="https://github.com/user-attachments/assets/efebf73d-ea1c-46a8-8287-e5a2a0d352a7" />
