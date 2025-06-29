@@ -31,6 +31,10 @@
 - 💡 **Interpretable** aligned well with sensorimotor priors in MI
 - 🧮 8× fewer parameters than large CNN-Transformer baselines (e.g., EEG Conformer)
 
+Comparison of network architectures among CNNs (EEGNet, SCNN, DCNN, etc), traditional serial Conformers (EEG Conformer, CTNet, etc), and the proposed DBConformer. DBConformer has two branches that parallel capture temporal and spatial characteristics.
+
+<img width="671" alt="image" src="https://github.com/user-attachments/assets/4fe38406-61bc-45da-8a91-eceb1f4cf794" />
+
 ## Code Structure
 ```
 DBConformer/
