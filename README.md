@@ -6,7 +6,9 @@
 
 </div>
 
-> This repository contains the implementation of our paper: **"[DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding](https://arxiv.org/abs/2506.21140)"**, serving as a **benchmark codebase** for EEG decoding models. We implemented and fairly evaluated ten state-of-the-art EEG decoding models, including CNN-based, CNN-Transformer hybrid, and CNN-Mamba hybrid decoding models. 
+[![DBConformer](https://img.shields.io/badge/Paper-DiffusionDrive-2b9348.svg?logo=arXiv)](https://arxiv.org/abs/2506.21140)&nbsp;
+
+> This repository contains the implementation of our paper: **"DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding"**, serving as a **benchmark codebase** for EEG decoding models. We implemented and fairly evaluated ten state-of-the-art EEG decoding models, including CNN-based, CNN-Transformer hybrid, and CNN-Mamba hybrid decoding models. 
 
 ---
 
