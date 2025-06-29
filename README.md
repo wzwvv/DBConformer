@@ -34,7 +34,7 @@
 Comparison of network architectures among CNNs (EEGNet, SCNN, DCNN, etc), traditional serial Conformers (EEG Conformer, CTNet, etc), and the proposed DBConformer. DBConformer has two branches that parallel capture temporal and spatial characteristics.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4fe38406-61bc-45da-8a91-eceb1f4cf794" width="40%"/>
+  <img src="https://github.com/user-attachments/assets/4fe38406-61bc-45da-8a91-eceb1f4cf794" width="50%"/>
 </div>
 
 ## Code Structure
