@@ -4,9 +4,9 @@
 
 [Ziwei Wang](https://scholar.google.com/citations?user=fjlXqvQAAAAJ&hl=en), [Hongbin Wang](https://github.com/WangHongbinary), [Tianwang Jia](https://github.com/TianwangJia), Xingyi He, [Siyang Li](https://scholar.google.com/citations?user=5GFZxIkAAAAJ&hl=en), and [Dongrui Wu*](https://scholar.google.com/citations?user=UYGzCPEAAAAJ&hl=en)
 
-</div>
-
 [![DBConformer](https://img.shields.io/badge/Paper-DBConformer-2b9348.svg?logo=arXiv)](https://arxiv.org/abs/2506.21140)&nbsp;
+
+</div>
 
 > This repository contains the implementation of our paper: **"DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding"**, serving as a **benchmark codebase** for EEG decoding models. We implemented and fairly evaluated ten state-of-the-art EEG decoding models, including CNN-based, CNN-Transformer hybrid, and CNN-Mamba hybrid decoding models. 
 
