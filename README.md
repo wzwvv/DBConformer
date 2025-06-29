@@ -14,7 +14,7 @@
 
 > This repository contains the implementation of our paper: **"DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding"**, serving as a **benchmark codebase** for EEG decoding models. We implemented and fairly evaluated ten state-of-the-art EEG decoding models, including CNN-based, CNN-Transformer hybrid, and CNN-Mamba hybrid EEG decoding models.
 
-## 🧠 Overview
+## Overview
 **DBConformer**, a **dual-branch convolutional Transformer** network tailored for EEG decoding:
 
 - **T-Conformer**: Captures long-range temporal dependencies
@@ -23,7 +23,7 @@
 
 <img width="1590" alt="image" src="https://github.com/user-attachments/assets/b4c0280f-f262-46c2-8f77-1ad649fde62a" />
 
-## 📦 Features
+## Features
 
 - 🔀 **Dual-branch parallel design** for symmetric spatio-temporal modeling
 - 🧩 **Plug-and-play channel attention** for data-driven channel weighting
@@ -31,7 +31,7 @@
 - 💡 **Interpretable** aligned well with sensorimotor priors in MI
 - 🧮 8× fewer parameters than large CNN-Transformer baselines (e.g., EEG Conformer)
 
-## 📂Code Structure
+## Code Structure
 ```
 DBConformer/
 │
@@ -65,7 +65,7 @@ DBConformer/
 └── README.md
 ```
 
-## 📊 Baselines
+## Baselines
 Ten EEG decoding models were reproduced and compared with the proposed DBConformer in this paper. DBConformer achieves the **state-of-the-art performance**.
 
 - CNNs: EEGNet, SCNN, DCNN, FBCNet, ADFCNN, IFNet, EEGWaveNet
@@ -74,7 +74,7 @@ Ten EEG decoding models were reproduced and compared with the proposed DBConform
 
 <img width="1031" alt="image" src="https://github.com/user-attachments/assets/f0df1a55-b7e6-4865-8ca0-a4eab3067a33" />
 
-## 📂 Datasets
+## Datasets
 DBConformer is evaluated on **MI classification** and **seizure detection** tasks.
 - Motor Imagery:
   - BNCI2014001
@@ -86,12 +86,22 @@ DBConformer is evaluated on **MI classification** and **seizure detection** task
   - CHSZ
   - NICU
 
-## 🧪 Experimental Scenarios
+## Experimental Scenarios
 DBConformer supports three standard EEG decoding paradigms:
 
 - **CO (Chronological Order):** Within-subject, time-based data split
 - **CV (Cross-Validation):** Within-subject, stratified 5-fold validation
 - **LOSO (Leave-One-Subject-Out):** Cross-subject generalization evaluation
+
+## Visualizations
+
+To further evaluate the impact of dual-branch architecture, we conducted feature visualization experiments using t-SNE. Features extracted by T-Conformer (temporal branch only) and DBConformer (dual-branch) were compared on four MI datasets.
+
+<img width="1387" alt="image" src="https://github.com/user-attachments/assets/d6d8a8eb-bdf5-4b69-9dca-459f46d9cb8c" />
+
+To investigate the interpretability of the proposed channel attention module, we visualized the attention scores assigned to each EEG channel across 32 trials (a batch) from four MI datasets. BNCI2014004 were excluded from this analysis, as it only contains C3, Cz, and C4 channels and therefore lacks spatial coverage for attention comparison.
+
+<img width="1384" alt="image" src="https://github.com/user-attachments/assets/efebf73d-ea1c-46a8-8287-e5a2a0d352a7" />
 
 ---
 
