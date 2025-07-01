@@ -2,7 +2,7 @@
 <h1>DBConformer</h1>
 <h3>Dual-Branch Convolutional Transformer for EEG Decoding</h3>
 
-[Ziwei Wang](https://scholar.google.com/citations?user=fjlXqvQAAAAJ&hl=en)<sup>1</sup>, [Hongbin Wang](https://github.com/WangHongbinary)<sup>1</sup>, [Tianwang Jia](https://github.com/TianwangJia)<sup>1</sup>, Xingyi He<sup>1</sup>, [Siyang Li](https://scholar.google.com/citations?user=5GFZxIkAAAAJ&hl=en)<sup>1</sup>, and [Dongrui Wu](https://scholar.google.com/citations?user=UYGzCPEAAAAJ&hl=en)<sup>1 :email:</sup>
+[Ziwei Wang](https://scholar.google.com/citations?user=fjlXqvQAAAAJ&hl=en)<sup>1</sup>, [Hongbin Wang](https://github.com/WangHongbinary)<sup>1</sup>, [Tianwang Jia](https://github.com/TianwangJia)<sup>1</sup>, [Xingyi He](https://github.com/BAY040210)<sup>1</sup>, [Siyang Li](https://scholar.google.com/citations?user=5GFZxIkAAAAJ&hl=en)<sup>1</sup>, and [Dongrui Wu](https://scholar.google.com/citations?user=UYGzCPEAAAAJ&hl=en)<sup>1 :email:</sup>
 
 <sup>1</sup> School of Artificial Intelligence and Automation, HUST
 
@@ -81,7 +81,8 @@ Ten EEG decoding models were reproduced and compared with the proposed DBConform
 <img width="1031" alt="image" src="https://github.com/user-attachments/assets/f0df1a55-b7e6-4865-8ca0-a4eab3067a33" />
 
 ## Datasets
-DBConformer is evaluated on **MI classification** and **seizure detection** tasks.
+DBConformer is evaluated on **MI classification** and **seizure detection** tasks. MI datasets can be downloaded from [MOABB](https://moabb.neurotechx.com), and [NICU dataset](https://zenodo.org/record/4940267). The processed BNCI2014001 dataset can be found in [MVCNet](https://github.com/wzwvv/MVCNet).
+
 - Motor Imagery:
   - BNCI2014001
   - BNCI2014004
