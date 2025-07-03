@@ -17,8 +17,8 @@
 ## Overview
 **DBConformer**, a **dual-branch convolutional Transformer** network tailored for EEG decoding:
 
-- **T-Conformer**: Captures long-range temporal dependencies
-- **S-Conformer**: Models inter-channel interactions
+- **T-Conformer**: Captures temporal dependencies
+- **S-Conformer**: Models spatial patterns
 - A **lightweight channel attention module** further refines spatial representations by assigning data-driven importance to EEG channels
 
 <img width="1590" alt="image" src="https://github.com/user-attachments/assets/b4c0280f-f262-46c2-8f77-1ad649fde62a" />
