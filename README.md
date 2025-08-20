@@ -4,7 +4,7 @@
 
 [Ziwei Wang](https://scholar.google.com/citations?user=fjlXqvQAAAAJ&hl=en)<sup>1</sup>, [Hongbin Wang](https://github.com/WangHongbinary)<sup>1</sup>, [Tianwang Jia](https://github.com/TianwangJia)<sup>1</sup>, [Xingyi He](https://github.com/BAY040210)<sup>1</sup>, [Siyang Li](https://scholar.google.com/citations?user=5GFZxIkAAAAJ&hl=en)<sup>1</sup>, and [Dongrui Wu](https://scholar.google.com/citations?user=UYGzCPEAAAAJ&hl=en)<sup>1 :email:</sup>
 
-<sup>1</sup> School of Artificial Intelligence and Automation, HUST
+<sup>1</sup> School of Artificial Intelligence and Automation, Huazhong University of Science and Technology
 
 (<sup>:email:</sup>) Corresponding Author
 
