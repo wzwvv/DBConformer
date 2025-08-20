@@ -10,7 +10,6 @@ import torch.nn.utils.weight_norm as weightNorm
 from torch.nn import TransformerEncoder, TransformerEncoderLayer
 
 from models.EEGNet import EEGNet_feature, EEGNet
-from models.EEGNetHead import EEGNet_head_feature
 from models.FC import FC, FC_xy, FC_wave, FC_wave_xy, FC_xy_2l
 from models.DeepConvNet import DeepConvNet
 from models.ShallowConvNet import ShallowConvNet
@@ -130,29 +129,6 @@ def backbone_net_dbconformer(args):
 def backbone_net_dbconformer_plot(args):
     netF = DBConformerV2(args, emb_size=args.emb_size, tem_depth=args.transformer_depth_tem, chn_depth=args.transformer_depth_chn, chn=args.chn, n_classes=args.class_num)  # TODO
     return netF
-
-
-def backbone_net_head(args, return_type='y'):
-    try:
-        F1, D, F2 = args.F1, args.D, args.F2
-    except:
-        F1, D, F2 = 4, 2, 8
-    print('F1, D, F2:', F1, D, F2)
-    netF = EEGNet_head_feature(n_classes=args.class_num,
-                          Chans=args.chn,
-                          Chans_t=args.chn_t,
-                          Samples=args.time_sample_num,
-                          kernLenght=int(args.sample_rate // 2),
-                          F1=F1,
-                          D=D,
-                          F2=F2,
-                          dropoutRate=args.dropoutRate,  # TODO: 0.25 in within, 0.5 in cross-subject
-                          norm_rate=0.5)
-    if return_type == 'y':
-        netC = FC(args.feature_deep_dim, args.class_num)
-    elif return_type == 'xy':
-        netC = FC_xy(args.feature_deep_dim, args.class_num)
-    return netF, netC
 
 
 def backbone_net_eegnex(args, return_type='y'):
