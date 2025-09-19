@@ -58,6 +58,9 @@ DBConformer/
 │   ├── EEGWaveNet.py       # Multi-scale CNN model
 │   ├── SlimSeiz.py         # Serial CNN-Mamba baseline
 │   ├── CTNet.py            # Serial CNN-Transformer baseline
+│   ├── MSVTNet.py          # Serial CNN-Transformer baseline
+│   ├── MSCFormer.py        # Serial CNN-Transformer baseline
+│   ├── TMSA-Net.py         # Serial CNN-Transformer baseline
 │   └── EEGConformer.py     # Serial CNN-Transformer baseline
 │
 ├── data/                   # Dataset
@@ -108,10 +111,21 @@ To further evaluate the impact of dual-branch architecture, we conducted feature
 
 <img width="1387" alt="image" src="https://github.com/user-attachments/assets/d6d8a8eb-bdf5-4b69-9dca-459f46d9cb8c" />
 
+### Visualization of Spatio-Temporal Self-Attention
+To further examine the interpretability of DBConformer, we visualized the self-attention matrices learned in both temporal and spatial branches on BNCI2014001, BNCI2014002, and OpenBMI datasets.
+
+<img width="914" height="741" alt="image" src="https://github.com/user-attachments/assets/4e610689-2b74-4de6-b17e-66ac705e0762" />
+
 ### Interpretability of Channel Attention
 To investigate the interpretability of the proposed channel attention module, we visualized the attention scores assigned to each EEG channel across 32 trials (a batch) from four MI datasets. BNCI2014004 were excluded from this analysis, as it only contains C3, Cz, and C4 channels and therefore lacks spatial coverage for attention comparison.
 
 <img width="1384" alt="image" src="https://github.com/user-attachments/assets/efebf73d-ea1c-46a8-8287-e5a2a0d352a7" />
+
+### Sensitivity Analysis on Architectural Design
+We further conducted a sensitivity analysis to explore how architectural design affects the DBConformer performance.
+
+<img width="918" height="255" alt="image" src="https://github.com/user-attachments/assets/396fb84e-3d01-43c4-a975-96cbb57cfe65" />
+
 
 ---
 
