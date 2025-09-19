@@ -85,7 +85,7 @@ Ten EEG decoding models were reproduced and compared with the proposed DBConform
 - Serial Conformers: CTNet, EEG Conformer 
 - CNN-Mamba: SlimSeiz
 
-<img width="1031" alt="image" src="https://github.com/user-attachments/assets/f0df1a55-b7e6-4865-8ca0-a4eab3067a33" />
+<img width="1148" height="686" alt="image" src="https://github.com/user-attachments/assets/9a66891b-5a3c-4574-a28d-3c82cd007906" />
 
 ## Datasets
 DBConformer is evaluated on **MI classification** and **seizure detection** tasks. MI datasets can be downloaded from [MOABB](https://moabb.neurotechx.com), and [NICU dataset](https://zenodo.org/record/4940267). The processed BNCI2014001 dataset can be found in [MVCNet](https://github.com/wzwvv/MVCNet).
