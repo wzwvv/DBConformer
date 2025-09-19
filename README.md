@@ -23,7 +23,8 @@
 - **S-Conformer**: Models spatial patterns
 - A **lightweight channel attention module** further refines spatial representations by assigning data-driven importance to EEG channels
 
-<img width="1590" alt="image" src="https://github.com/user-attachments/assets/b4c0280f-f262-46c2-8f77-1ad649fde62a" />
+<img width="453" height="468" alt="image" src="https://github.com/user-attachments/assets/bef7997e-fe20-4923-bb71-46e355b37178" />
+
 
 ## Features
 
