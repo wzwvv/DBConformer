@@ -23,8 +23,9 @@
 - **S-Conformer**: Models spatial patterns
 - A **lightweight channel attention module** further refines spatial representations by assigning data-driven importance to EEG channels
 
-<img width="453" height="468" alt="image" src="https://github.com/user-attachments/assets/bef7997e-fe20-4923-bb71-46e355b37178" />
-
+<div align="center">
+<img width="1120" height="477" alt="image" src="https://github.com/user-attachments/assets/71de7f6e-3dcc-4deb-9a00-382235081111" />
+</div>
 
 ## Features
 
@@ -37,7 +38,7 @@
 Comparison of network architectures among CNNs (EEGNet, SCNN, DCNN, etc), traditional serial Conformers (EEG Conformer, CTNet, etc), and the proposed DBConformer. DBConformer has two branches that parallel capture temporal and spatial characteristics.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4fe38406-61bc-45da-8a91-eceb1f4cf794" width="50%"/>
+  <img width="553" height="453" alt="image" src="https://github.com/user-attachments/assets/f819600d-27de-460e-a82a-4f7e5322e168" />
 </div>
 
 ## Code Structure
