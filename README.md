@@ -101,12 +101,12 @@ DBConformer is evaluated on **MI classification** and **seizure detection** task
   - NICU
 
 ## Experimental Scenarios
-DBConformer supports three standard EEG decoding paradigms:
+DBConformer supports four standard EEG decoding paradigms:
 
 - **CO (Chronological Order):** Within-subject, EEG trials were partitioned strictly based on temporal sequence, with the first 80% used for training and the remaining 20% for testing.
 - **CV (Cross-Validation):** Within-subject, stratified 5-fold validation. The data partitions were structured chronologically while maintaining class-balance.
 - **LOSO (Leave-One-Subject-Out):** Cross-subject generalization evaluation. EEG trials from one subject were reserved for testing, while all other subjects’ trials were combined for training.
-- **CD (Cross-Dataset)**: Cross-dataset generalization evaluation. Training and testing were performed on distinct EEG datasets, e.g., training on BNCI2014001 and testing on BNCI2014004.
+- **CD (Cross-Dataset)**: Cross-dataset generalization evaluation. Training and testing were performed on distinct EEG datasets, e.g., training on BNCI2014001 and testing on BNCI2014004. The CD results are shown in Table S1 of the supplementary material.
 
 ## Visualizations
 ### Effect of Dual-Branch Modeling
