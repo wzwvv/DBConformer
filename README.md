@@ -15,6 +15,8 @@
 > This repository contains the implementation of our paper: **"DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding"**, serving as a **benchmark codebase** for EEG decoding models. We implemented and fairly evaluated ten state-of-the-art EEG decoding models, including CNN-based, CNN-Transformer hybrid, and CNN-Mamba hybrid EEG decoding models.
 
 ## Overview
+📰 News: Our paper has been accepted for publication in the IEEE Journal of Biomedical and Health Informatics (IEEE JBHI). The final version will be available soon.
+
 📰 News! We've reproduced and added three recent EEG decoding baseline models, including [MSVTNet](https://ieeexplore.ieee.org/abstract/document/10652246), [MSCFormer](https://www.nature.com/articles/s41598-025-96611-5), and [TMSA-Net](https://www.sciencedirect.com/science/article/pii/S1746809424012473).
 
 **DBConformer**, a **dual-branch convolutional Transformer** network tailored for EEG decoding:
