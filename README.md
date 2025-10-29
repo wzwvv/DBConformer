@@ -16,7 +16,7 @@
 
 ## Overview
 📰 News: **DBConformer** has been accepted for publication in the **IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)**. The final version will be available soon. Congratulations! 🎉
-
+📰 News: We've released the [supplementary material](https://github.com/wzwvv/DBConformer/blob/main/Supplementary_Material_for_DBConformer_final.pdf) for DBConformer.
 📰 News! We've reproduced and added three recent EEG decoding baseline models, including [MSVTNet](https://ieeexplore.ieee.org/abstract/document/10652246), [MSCFormer](https://www.nature.com/articles/s41598-025-96611-5), and [TMSA-Net](https://www.sciencedirect.com/science/article/pii/S1746809424012473).
 
 **DBConformer**, a **dual-branch convolutional Transformer** network tailored for EEG decoding:
