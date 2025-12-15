@@ -142,7 +142,7 @@ If you find this work helpful, please consider citing our paper:
 @Article{wang2025dbconformer,
         author  = {Ziwei Wang and Hongbin Wang and Tianwang Jia and Xingyi He and Siyang Li and Dongrui Wu},
         journal = {IEEE Journal of Biomedical and Health Informatics},
-        title   = {{DBConformer}: Dual-branch convolutional {Transformer} for {EEG} decoding},
+        title   = {DBConformer: Dual-branch convolutional Transformer for EEG decoding},
         year    = {2025},
         note    = {Early Access},
         pages   = {1--14},
