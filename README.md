@@ -15,6 +15,7 @@
 > This repository contains the implementation of our paper: [**"DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding"**, serving as a **benchmark codebase**](https://ieeexplore.ieee.org/document/11215634) for EEG decoding models. We implemented and fairly evaluated 13 state-of-the-art EEG decoding models, including CNN-based, CNN-Transformer hybrid, and CNN-Mamba hybrid EEG decoding models.
 
 ## Overview
+📰 News: The original EEG trials of our seizure dataset CHSZ are now publicly available on [Zenodo](https://zenodo.org/records/19333249).
 📰 News: **DBConformer** has been accepted for publication in the **IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)**. The final version will be available soon. Congratulations! 🎉
 
 📰 News: We've released the [supplementary material](https://github.com/wzwvv/DBConformer/blob/main/Supplementary_Material_for_DBConformer_final.pdf) for DBConformer.
