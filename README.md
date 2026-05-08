@@ -133,7 +133,8 @@ To investigate the interpretability of the proposed channel attention module, we
 ### Sensitivity Analysis on Architectural Design
 We further conducted a sensitivity analysis to explore how architectural design affects the DBConformer performance.
 
-<img width="918" height="255" alt="image" src="https://github.com/user-attachments/assets/396fb84e-3d01-43c4-a975-96cbb57cfe65" />
+<img width="918" height="255" alt="image" src="https://github.com/user-attachments/assets/b3e28124-b140-49b3-9364-07f9f8a951b0" />
+
 
 
 ---
