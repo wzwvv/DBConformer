@@ -142,13 +142,13 @@ We further conducted a sensitivity analysis to explore how architectural design 
 If you find this work helpful, please consider citing our paper:
 ```
 @Article{wang2025dbconformer,
-        author  = {Ziwei Wang and Hongbin Wang and Tianwang Jia and Xingyi He and Siyang Li and Dongrui Wu},
-        journal = {IEEE Journal of Biomedical and Health Informatics},
-        title   = {DBConformer: Dual-branch convolutional Transformer for EEG decoding},
-        year    = {2025},
-        note    = {Early Access},
-        pages   = {1--14},
-        doi     = {10.1109/JBHI.2025.3622725},
+  author  = {Ziwei Wang and Hongbin Wang and Tianwang Jia and Xingyi He and Siyang Li and Dongrui Wu},
+  journal = {IEEE Journal of Biomedical and Health Informatics},
+  title   = {{DBConformer}: Dual-branch convolutional {Transformer} for {EEG} decoding},
+  year    = {2026},
+  number  = {5},
+  pages   = {4134--4147},
+  volume  = {30},
 }
 
 ```
