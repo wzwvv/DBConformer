@@ -8,7 +8,7 @@
 
 (<sup>:email:</sup>) Corresponding Author
 
-[![DBConformer](https://img.shields.io/badge/Paper-DBConformer-2b9348.svg?logo=arXiv)](https://arxiv.org/abs/2506.21140)&nbsp;
+[![DBConformer](https://img.shields.io/badge/Paper-DBConformer-2b9348.svg?logo=IEEE)]([https://arxiv.org/abs/2506.21140](https://ieeexplore.ieee.org/document/11215634))&nbsp;
 
 </div>
 
@@ -17,7 +17,7 @@
 ## Overview
 📰 News: The original EEG trials of our seizure dataset CHSZ are now publicly available on [Zenodo](https://zenodo.org/records/19333249).
 
-📰 News: **DBConformer** has been accepted for publication in the **IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)**. The final version will be available soon. Congratulations! 🎉
+📰 News: **DBConformer** has been accepted for publication in the [**IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)**](https://ieeexplore.ieee.org/document/11215634). Congratulations! 🎉
 
 📰 News: We've released the [supplementary material](https://github.com/wzwvv/DBConformer/blob/main/Supplementary_Material_for_DBConformer_final.pdf) for DBConformer.
 
