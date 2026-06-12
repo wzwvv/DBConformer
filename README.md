@@ -9,6 +9,7 @@
 (<sup>:email:</sup>) Corresponding Author
 
 [![DBConformer](https://img.shields.io/badge/Paper-DBConformer-2b9348.svg?logo=IEEE)](https://ieeexplore.ieee.org/document/11215634)&nbsp;
+[![Supplementary](https://img.shields.io/badge/Paper-DBConformer-2b9348.svg?logo=IEEE)](https://drive.google.com/file/d/1BswpJ8kJ_laORqA63xPCxhWpetxT9-3u/view?usp=sharing)&nbsp;
 
 </div>
 
