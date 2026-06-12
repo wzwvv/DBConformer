@@ -9,18 +9,19 @@
 (<sup>:email:</sup>) Corresponding Author
 
 [![DBConformer](https://img.shields.io/badge/Paper-DBConformer-2b9348.svg?logo=IEEE)](https://ieeexplore.ieee.org/document/11215634)&nbsp;
-[![Supplementary](https://img.shields.io/badge/Paper-DBConformer-2b9348.svg?logo=IEEE)](https://drive.google.com/file/d/1BswpJ8kJ_laORqA63xPCxhWpetxT9-3u/view?usp=sharing)&nbsp;
+[![Supplementary](https://img.shields.io/badge/Paper-Supplementary-2b9348.svg?logo=IEEE)](https://drive.google.com/file/d/1BswpJ8kJ_laORqA63xPCxhWpetxT9-3u/view?usp=sharing)&nbsp;
 
 </div>
 
 > This repository contains the implementation of our paper: [**"DBConformer: Dual-Branch Convolutional Transformer for EEG Decoding"**, serving as a **benchmark codebase**](https://ieeexplore.ieee.org/document/11215634) for EEG decoding models. We implemented and fairly evaluated 13 state-of-the-art EEG decoding models, including CNN-based, CNN-Transformer hybrid, and CNN-Mamba hybrid EEG decoding models.
 
 ## Overview
-📰 News: The original EEG trials of our seizure dataset CHSZ are now publicly available on [Zenodo](https://zenodo.org/records/19333249).
 
 📰 News: **DBConformer** has been accepted for publication in the [**IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)**](https://ieeexplore.ieee.org/document/11215634). Congratulations! 🎉
 
-📰 News: We've released the [supplementary material](https://github.com/wzwvv/DBConformer/blob/main/Supplementary_Material_for_DBConformer_final.pdf) for DBConformer.
+📰 News: The original EEG trials of our seizure dataset CHSZ are now publicly available on [Zenodo](https://zenodo.org/records/19333249).
+
+📰 News: We've released the [supplementary material](https://drive.google.com/file/d/1BswpJ8kJ_laORqA63xPCxhWpetxT9-3u/view?usp=sharing) for DBConformer.
 
 📰 News! We've reproduced and added three recent EEG decoding baseline models, including [MSVTNet](https://ieeexplore.ieee.org/abstract/document/10652246), [MSCFormer](https://www.nature.com/articles/s41598-025-96611-5), and [TMSA-Net](https://www.sciencedirect.com/science/article/pii/S1746809424012473).
 
