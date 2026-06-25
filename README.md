@@ -154,6 +154,14 @@ If you find this work helpful, please consider citing our paper:
 
 ```
 
+## License
+
+This project is released under the PolyForm Noncommercial License 1.0.0 for academic and non-commercial research use.
+
+Commercial use, including use in commercial products, services, or clinical/commercial deployment, is not permitted without prior written permission from the authors.
+
+If you use this code or DBConformer in your research, please cite our paper and acknowledge this repository. For commercial licensing inquiries, please contact Ziwei Wang at [vivi@hust.edu.cn].
+
 ## 🙌 Acknowledgments
 
 Special thanks to the source code of EEG decoding models: [EEGNet](https://github.com/vlawhern/arl-eegmodels), [IFNet](https://github.com/Jiaheng-Wang/IFNet), [EEG Conformer](https://github.com/eeyhsong/EEG-Conformer), [FBCNet](https://github.com/ravikiran-mane/FBCNet), [CTNet](https://github.com/snailpt/CTNet), [ADFCNN](https://github.com/UM-Tao/ADFCNN-MI), [EEGWaveNet](https://github.com/IoBT-VISTEC/EEGWaveNet), [SlimSeiz](https://github.com/guoruilu/SlimSeiz), [MSVTNet](https://ieeexplore.ieee.org/abstract/document/10652246), [MSCFormer](https://www.nature.com/articles/s41598-025-96611-5), and [TMSA-Net](https://www.sciencedirect.com/science/article/pii/S1746809424012473).
