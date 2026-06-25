@@ -160,7 +160,7 @@ This project is released under the PolyForm Noncommercial License 1.0.0 for acad
 
 Commercial use, including use in commercial products, services, or clinical/commercial deployment, is not permitted without prior written permission from the authors.
 
-If you use this code or DBConformer in your research, please cite our paper and acknowledge this repository. For commercial licensing inquiries, please contact Ziwei Wang at [vivi@hust.edu.cn].
+If you use this code or DBConformer in your research, please cite our paper. For commercial licensing inquiries, please contact Ziwei Wang at [vivi@hust.edu.cn].
 
 ## 🙌 Acknowledgments
 
